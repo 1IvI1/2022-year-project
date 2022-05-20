@@ -1,0 +1,24 @@
+.menu-item-wrapper {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  box-shadow: 0 5px 5px rgb(240, 239, 239);
+}
+
+.menu-item-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding-bottom: .5rem;
+  padding-right: .5rem;
+  padding-left: .5rem;
+}
+
+.menu-item-footer-rating {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-item-footer-rating svg:first-child {
+  margin-right: .5rem;
+}

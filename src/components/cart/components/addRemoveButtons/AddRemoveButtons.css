@@ -1,0 +1,16 @@
+.add-remove-wrapper button {
+  width: unset;
+  margin-right: .5rem;
+  margin-left: .5rem;
+  height: 30px;
+}
+
+.add-remove-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.add-subtract-buttons {
+  display: flex;
+  justify-content: space-between;
+}

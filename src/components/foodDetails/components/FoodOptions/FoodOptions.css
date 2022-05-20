@@ -1,0 +1,29 @@
+.food-options-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.f-option-add-remove {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: .5;
+}
+
+.f-option-remove {
+    margin-right: .2rem;
+}
+
+.f-options-name {
+  flex: 2;
+}
+
+.f-options-price {
+  flex: 1;
+}
+
+.f-option-add {
+    margin-left: .2rem;
+}

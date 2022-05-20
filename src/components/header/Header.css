@@ -1,0 +1,61 @@
+.header-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #c7252c;
+  height: 60px;
+  z-index: 100000;
+  color: #fff;
+}
+
+.cart-watier-icons-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-cart-icon-wrapper {
+  position: relative;
+
+}
+
+.header-cart-icon-count {
+  position: absolute;
+  right: 6px;
+  bottom: -5px;
+  background-color: #c7252c;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 10px;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-watier-icons-wrapper svg:first-child {
+  margin-right: 1rem;
+}
+
+@keyframes waiter-active {
+  0% {
+    color: #fff;
+  }
+  50% {
+    color: #ff999e;
+  }
+  100% {
+    color: #fff;
+  }
+}
+
+.call-waiter-active {
+  animation: waiter-active;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}

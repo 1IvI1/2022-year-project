@@ -1,0 +1,28 @@
+.food-details-wrapper {
+  padding-top: 60px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+
+.food-details-image {
+  width: 100%;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+}
+
+.food-details-data {
+  padding-bottom: 100px;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.food-details-footer {
+  position: fixed;
+  bottom: .5rem;
+  width: 95%;
+  left: 2.5%;
+}
